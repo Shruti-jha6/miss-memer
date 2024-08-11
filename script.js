@@ -32,24 +32,3 @@ const generateMemeBtn = document.querySelector(
   
   generateMeme();
 
-
-
-// const generate = document.querySelector(".memer .memer-btn")
-// const memeimg = document.querySelector(".memer img");
-// const memetitle = document.querySelector(".memer .title");
-// const memeauth = document.querySelector(".memer .author");
-
-// const updateDetails = (url, title, author)=>{
-//     memeimg.setAttribute("src", url);
-//     memetitle.innerHTML = title;
-//     memeauth.innerHTML = author;
-// }
-
-// const generateMeme =()=>{
-//     fetch("https://meme-api.com/gimme/wholesomememes").then((response) => response.json())
-//     .then((data) => {
-//         updateDetails(data.url,data.title,data.author);
-//     });
-// };
-
-// generate.addEventListener("click", generateMeme);
