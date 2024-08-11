@@ -1,19 +1,26 @@
-.memer{
+.meme-generator{
     margin: 0px;
     padding: 0px;
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 100%;
     background-color: darkslategray;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.memer img{
-    height: 40%;
+.meme-generator img{
+    height: 35rem;
     /* object-fit: cover; correct accept ratio */
     object-fit: cover;
+    border: 0.3rem solid rgb(21, 247, 153);
+    box-shadow: 2px 8px 7px rgb(37, 248, 231);
 }
-.memer-btn{
-    margin: 15%;
+.meme-generator img:hover{
+    height: 36.2rem;
+    box-shadow: 2px 10px 30px rgb(185, 240, 235);
+
+}
+.generate-meme-btn{
+    margin: 2%;
     border: none;
     padding: 2rem;
     font-size: 1.5rem;
@@ -22,4 +29,26 @@
     border-left: 5px solid cyan;
     border-right: 5px solid cyan;
     box-shadow: 2px 14px 20px cyan;
+    cursor: pointer;
+}
+
+.generate-meme-btn:hover{
+    font-size: 1.58rem;
+    box-shadow: 2px 14px 20px rgb(170, 248, 248);
+}
+.meme-author{
+    margin: 2rem;
+    padding-bottom: 5rem;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.meme-title{
+    color: rgb(162, 231, 243);
+    font-weight: bold;
+    font-size: 2.3rem;
+    text-shadow: 0 0 2px rgba(162, 231, 243, 0.8),
+                 0 0 8px rgba(162, 231, 243, 0.6),
+                 0 0 24px rgba(162, 231, 243, 0.4);
+    
 }
