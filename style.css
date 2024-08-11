@@ -1,3 +1,25 @@
 .memer{
-    background-color: red;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    max-height: 100vh;
+    background-color: darkslategray;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.memer img{
+    height: 40%;
+    /* object-fit: cover; correct accept ratio */
+    object-fit: cover;
+}
+.memer-btn{
+    margin: 15%;
+    border: none;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: cyan;
+    background-color: darkcyan;
+    border-left: 5px solid cyan;
+    border-right: 5px solid cyan;
+    box-shadow: 2px 14px 20px cyan;
 }
